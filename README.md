@@ -7,7 +7,7 @@
 </p>
 
 
-Browser CTL is a MCP server built on Python Playwright, providing a suite of tools that enable AI agents to control and interact with web browsers , in this simple version the used browser is chrome.
+Browser CTL is a MCP server built on Python Playwright, providing a suite of tools that enable AI agents to control and interact with web browsers , this simple version use chrome browser.
 
 # Exposed Tools:
 
@@ -35,7 +35,7 @@ Open browser in real-time.
 
 # Default log
 
-this MCP server start with info log level by default:
+This MCP server start with info log level by default:
 
 
 ```
@@ -150,7 +150,7 @@ Your expertise and ideas can make a significant impact on this project. Thanks!
 
 ## Learn More
 
-visit our YouTube channel to learn how  to create AI agents:
+Visit our YouTube channel to learn how  to create AI agents:
 
 [![Watch](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/@BitEval)
   
