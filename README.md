@@ -147,7 +147,7 @@ python browser_ctl.py
 
 ## Contributions Are Welcome!
 
-Your expertise and ideas can make a significant impact on this project. Thanks!
+Your expertise and ideas can make a significant impact on this project.Thanks!
 
 
 ## Learn More
