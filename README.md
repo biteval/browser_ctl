@@ -33,8 +33,7 @@ Open browser in real-time.
 
 ## 6. take_browser_screenshot
 
-Capture a screenshot of the current browser page
-Returns: base64-encoded image string
+Capture a screenshot of the current browser page and return a base64-encoded image.
 
 # Default log
 
