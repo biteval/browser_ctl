@@ -38,7 +38,7 @@ async def execute_javascript(script: str):
 @mcp.tool()
 async def go_to_url(url: str) -> str:
     """
-    Visit a target url in real-time browser
+    Visit a target url in real-time browser if the browser is open.
     Arg:
         url (str) : the url you want to visit
     """
