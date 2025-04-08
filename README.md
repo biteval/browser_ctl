@@ -57,21 +57,7 @@ http://127.0.0.1:8001/sse
 
 # INSTALL
 
-First, clone this repo:
-
-```
-git clone https://github.com/biteval/browser_ctl.git
-
-```
-
-Move to the main dir:
-
-```
-cd browser_ctl
-
-```
-
-Now, let’s install uv and set up our Python project and environment:
+First, let’s install uv and set up our Python project and environment:
 
 
 ## Linux:
@@ -88,8 +74,19 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 ```
 
+Clone the repo:
 
-## Now, let’s set up our project:
+```
+git clone https://github.com/biteval/browser_ctl.git
+```
+
+Go to the project dir:
+
+```
+cd browser_ctl
+```
+
+## Create virtual environment and activate it
  
 
 ```
@@ -101,10 +98,6 @@ uv init
 uv venv
 
 ```
-
-
-## Create virtual environment and activate it
-
 
 ## Linux:
 
@@ -121,11 +114,18 @@ source .venv/bin/activate
 ```
 
 
-## Install dependencies
+# Install dependencies
+
+## Linux
 
 ```
 uv add "mcp[cli]" httpx playwright
+```
 
+## Windows
+
+```
+uv add mcp[cli] httpx playwright
 ```
 
 
