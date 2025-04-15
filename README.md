@@ -1,7 +1,7 @@
 # Browser CTL MCP Server 
 
 SSE Anthropic based MCP server built on Python Playwright, providing a suite of tools that enable AI agents to control and interact with web browsers , this simple version use chrome browser.
-<a href="https://youtu.be/83VpJnFdBkI" target="_blank">Watch this video to learn how to create AI agents from scratch using XAgent lib</a>
+
 
 # Exposed Tools:
 
